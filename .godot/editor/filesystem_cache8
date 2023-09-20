@@ -1,3 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695231309
-icon.svg::CompressedTexture2D::5268071487442685580::1695231303::1695231310::1::::<><>::
+::res://::1695232255
+README.md::TextFile::-1::1695231412::0::1::::<><>::
+::res://component/::1695232251
+::res://component/textures/::1695232255
+icon.svg::CompressedTexture2D::5268071487442685580::1695231303::1695232255::1::::<><>::
+::res://props/::1695232130
+::res://scenes/::1695232211
+dialog_test.tscn::PackedScene::2690585787581706571::1695232211::0::1::::<><>::
