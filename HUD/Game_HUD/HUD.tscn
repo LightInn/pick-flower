@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="Control/CenterContainer"]
+margin_left = 511.0
+margin_top = 299.0
+margin_right = 513.0
+margin_bottom = 301.0
+rect_min_size = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 7.21594, 7.23022 )
