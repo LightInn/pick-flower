@@ -1,3 +1,2 @@
 res://Scenes/World.tscn
-res://props/Player/player.tscn
-res://props/Player/Player.gd
+res://HUD/Game_HUD/HUD.tscn
