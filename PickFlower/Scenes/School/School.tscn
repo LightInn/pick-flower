@@ -1,21 +1,38 @@
-[gd_scene load_steps=4 format=3 uid="uid://wsxfjcsfvs0h"]
+[gd_scene load_steps=5 format=3 uid="uid://wsxfjcsfvs0h"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_6u0w8"]
-sky_top_color = Color(1, 1, 1, 1)
-sky_horizon_color = Color(1, 1, 1, 1)
+[ext_resource type="PackedScene" uid="uid://dws7pkpxbhf00" path="res://Assets/Environement/school.tscn" id="1_yghtq"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5x05i"]
+sky_top_color = Color(0, 0, 0, 1)
+sky_horizon_color = Color(0.75, 0.75, 0.75, 1)
 ground_bottom_color = Color(1, 1, 1, 1)
-ground_horizon_color = Color(1, 1, 1, 1)
+ground_horizon_color = Color(0.75, 0.75, 0.75, 1)
 
-[sub_resource type="Sky" id="Sky_gv4vc"]
-sky_material = SubResource("ProceduralSkyMaterial_6u0w8")
+[sub_resource type="Sky" id="Sky_gshij"]
+sky_material = SubResource("ProceduralSkyMaterial_5x05i")
 
-[sub_resource type="Environment" id="Environment_nuncn"]
+[sub_resource type="Environment" id="Environment_bp4ik"]
 background_mode = 2
-sky = SubResource("Sky_gv4vc")
+background_color = Color(1, 1, 1, 1)
+sky = SubResource("Sky_gshij")
 tonemap_mode = 2
-glow_enabled = true
+tonemap_exposure = 0.8
+tonemap_white = 6.0
+fog_enabled = true
+fog_light_color = Color(1, 1, 1, 1)
+fog_light_energy = 1.3
+volumetric_fog_emission = Color(0.701961, 0.701961, 0.701961, 1)
 
 [node name="Origine" type="Node3D"]
 
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.569279, 0.699489, -0.432013, 0, 0.525472, 0.850811, 0.822144, -0.484349, 0.29914, 0, 0, 0)
+shadow_enabled = true
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_nuncn")
+environment = SubResource("Environment_bp4ik")
+
+[node name="school2" parent="." instance=ExtResource("1_yghtq")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 20.7435, 67.4374)

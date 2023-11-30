@@ -1,9 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701374127
+::res://::1701380562
 icon-light.png::CompressedTexture2D::1355958891289324665::1701373729::1701373833::1::::<><>::
 icon.svg::CompressedTexture2D::4193619198179377304::1701373557::1701373563::1::::<><>::
 ::res://Addons/::1701373614
-::res://Assets/::1701373656
+::res://Assets/::1701378504
+::res://Assets/Environement/::1701379703
+school.glb::PackedScene::2122078244413567887::1701379700::1701379703::1::::<><>::
 ::res://Assets/HUD/::1701373588
 ::res://Assets/HUD/Game_HUD/::1701373588
 HUD.tscn::PackedScene::4303376108758404704::1696252402::0::1::::<><>::
@@ -28,5 +30,6 @@ Red.tres::StandardMaterial3D::4268741505349743764::1695396605::0::1::::<><>::
 ::res://Scenes/::1701374050
 DiagViewport.gd::GDScript::-1::1695589786::0::1::::<>SubViewport<>::
 World.tscn::PackedScene::7285665154832654338::1701373646::0::1::::<><>::uid://b4s0xnt1f6lia::::res://Materials/Green.tres<>uid://bi1h4xe7msjwi::::res://Materials/Pink.tres<>res://addons/dialogue_manager/dialogue_label.gd<>uid://b122sws3pt7w7::::res://Materials/Red.tres<>res://Scenes/DiagViewport.gd<>uid://bd8vqcpeex0gw::::res://Assets/props/Player/player.tscn<>uid://p2nkjd3ge3qm::::res://Materials/Blue.tres<>uid://5enpc7d736eu::::res://Materials/Digital_Painting_equirectangular-jpg_Floating_island_in_the_1939112965_8942602.jpg<>uid://ng4wajbbw11q::::res://Assets/props/islande.glb<>uid://bfr7lw13emwyy::::res://Assets/props/tree.glb
-::res://Scenes/School/::1701374082
-School.tscn::PackedScene::1582719256038068057::1701374082::0::1::::<><>::
+::res://Scenes/School/::1701380357
+School.tscn::PackedScene::1582719256038068057::1701380357::0::1::::<><>::uid://5h7k3mcdg0pn::::res://Assets/Environement/school.glb
+::res://Shader/::1701380562

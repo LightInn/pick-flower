@@ -1,1 +1,4 @@
 res://Scenes/School/School.tscn
+res://Shaders/screen_b.gdshader
+res://Assets/Environement/school.tscn
+res://Shaders/shader_e.gdshader
